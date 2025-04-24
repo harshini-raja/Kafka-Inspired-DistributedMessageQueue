@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c783faf-57ec-4226-919a-a0e2f6df6884" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistributedMessageQueue/src/components/ConsumerLogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistributedMessageQueue/src/components/ProducerLogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile.broker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile.consumer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile.producer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Adapters/InstantTypeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Adapters/MessageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Brokers/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Consumers/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Consumers/ConsumerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Core/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Core/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Core/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Core/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Core/TopicManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Logging/LogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Logging/LogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Metadata/PartitionMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Producers/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/distributedQueue/Protocols/GossipProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/distributedQueue/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wait-for-it.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2w8xygEm1QHSuih6y3IUb5I9Kvy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/harshi/Documents/Java/Projects/temp/Distributed Message Queue",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.25632185",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "two.files.diff.last.used.file": "/Users/harshi/Downloads/Distributed-Queue-System-main/pom.xml"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/distributedQueue" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.distributedQueue" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.distributedQueue.Core" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c783faf-57ec-4226-919a-a0e2f6df6884" name="Changes" comment="" />
+      <created>1745437260656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745437260656</updated>
+    </task>
+    <servers />
+  </component>
+</project>

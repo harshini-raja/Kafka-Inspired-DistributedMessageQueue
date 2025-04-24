@@ -1,0 +1,87 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Tabs Styles */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #0056b3;
+}
+
+.tabs button:focus {
+  outline: none;
+}
+
+/* Active Tab Styles */
+.tabs button.active {
+  background-color: #0056b3;
+  font-weight: bold;
+}
+
+/* Tab Content Styles */
+.tab-content {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Specific Heading Styles */
+h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* No Active Brokers Found Message */
+p {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}

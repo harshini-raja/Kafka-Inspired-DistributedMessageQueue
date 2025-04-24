@@ -1,0 +1,16 @@
+FROM openjdk:17-jdk-slim
+
+# Install curl for health checks
+RUN apt-get update && apt-get install -y curl
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the built JAR file into the container
+COPY target/DistributedMessageQueue-1.0-SNAPSHOT.jar /app/broker-application.jar
+
+# Set environment variables (optional) for configuration
+ENV JAVA_OPTS=""
+
+# Define the command to run the broker application
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /app/broker-application.jar"]

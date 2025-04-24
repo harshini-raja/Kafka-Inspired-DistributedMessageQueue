@@ -1,0 +1,15 @@
+# Dockerfile.controller
+
+FROM openjdk:17-jdk-slim
+
+WORKDIR /app
+
+COPY target/DistributedMessageQueue-1.0-SNAPSHOT.jar /app/controller-application.jar
+
+EXPOSE 8090
+
+ENV ROLE=controller
+ENV PORT=8090
+ENV JAVA_OPTS=""
+
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /app/controller-application.jar"]
